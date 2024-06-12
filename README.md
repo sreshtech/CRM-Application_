@@ -20,14 +20,15 @@ Welcome to the Mini CRM Application! This project provides a simple web interfac
 
 ## Demo
 A live demo of the application can be found 
-![Screenshot (1051)](https://github.com/sreshtech/CRM-Application/assets/121309862/832c3c09-cb6b-457b-9180-3ceea4f92882)
+![Screenshot (1051)](https://github.com/sreshtech/CRM-Application_/assets/121309862/57c5d064-e45e-4720-ad16-26bb8be6f942)
 
-![Screenshot (1046)](https://github.com/sreshtech/CRM-Application/assets/121309862/1104c4d9-5cc8-4b0a-8f90-6dc2d332ff04)
-![Screenshot (1047)](https://github.com/sreshtech/CRM-Application/assets/121309862/21901cab-5f43-4b87-8b74-61a8db5d64a0)
+![Screenshot (1046)](https://github.com/sreshtech/CRM-Application_/assets/121309862/3b3a82df-b211-495c-8aca-beb6b6fe2e48)
 
-![Screenshot (1048)](https://github.com/sreshtech/CRM-Application/assets/121309862/fb720844-dd22-4fd3-a819-99e7ed24b28a)
-![Screenshot (1050)](https://github.com/sreshtech/CRM-Application/assets/121309862/86279b95-0dcf-432e-88d7-952ee2369ead)
+![Screenshot (1048)](https://github.com/sreshtech/CRM-Application_/assets/121309862/88dd6703-54ea-4ec1-932e-a347f74d16c5)
+![Screenshot (1047)](https://github.com/sreshtech/CRM-Application_/assets/121309862/57d10375-5892-4e36-aed7-6726256e54ef)
+![Screenshot (1049)](https://github.com/sreshtech/CRM-Application_/assets/121309862/5d31311d-2f0c-4934-9965-b6eaab7b15b2)
 
+![Screenshot (1050)](https://github.com/sreshtech/CRM-Application_/assets/121309862/33039ccc-757f-46ba-affd-16ee51ed32c9)
 
 ## Installation
 
