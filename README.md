@@ -66,6 +66,24 @@ To get started with the project, follow these steps:
 ## Folder Structure
 
 The project's folder structure is organized as follows:
+mini-crm-app/
+│
+├── public/
+│ └── index.html # Main HTML file
+├── src/
+│ ├── components/ # React components
+│ │ ├── AudienceForm.js # Form for creating audiences
+│ │ ├── CampaignList.js # List of past campaigns
+│ │ ├── Header.js # Header component
+│ │ └── Login.js # Login component
+│ ├── App.js # Main application file
+│ ├── App.css # CSS for styling
+│ ├── index.js # Entry point of the application
+│ └── index.css # Global CSS styles
+├── .gitignore # Git ignore file
+├── package.json # Node package configuration
+└── README.md # Project README
+
 
 
 ## Technologies Used
