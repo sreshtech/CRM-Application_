@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #6200ea;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.login-btn {
+  background-color: #03dac5;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.login-btn:hover {
+  background-color: #018786;
+}
+
+.main {
+  padding: 20px;
+}
+
+.audience-form,
+.campaigns {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.audience-form h2,
+.campaigns h2 {
+  color: #6200ea;
+}
+
+.audience-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.audience-form label {
+  margin-bottom: 5px;
+}
+
+.audience-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="button"],
+button[type="submit"] {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="button"]:hover,
+button[type="submit"]:hover {
+  background-color: #3700b3;
+}
+
+.campaigns table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.campaigns th,
+.campaigns td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
