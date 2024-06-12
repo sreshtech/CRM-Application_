@@ -63,27 +63,6 @@ To get started with the project, follow these steps:
 2. **Create Audience**: Fill out the form to create an audience based on the criteria you define.
 3. **Send Campaigns**: Save the audience to initiate a campaign, view past campaigns, and check the status of sent messages.
 
-## Folder Structure
-
-The project's folder structure is organized as follows:
-mini-crm-app/
-│
-├── public/
-│ └── index.html # Main HTML file
-├── src/
-│ ├── components/ # React components
-│ │ ├── AudienceForm.js # Form for creating audiences
-│ │ ├── CampaignList.js # List of past campaigns
-│ │ ├── Header.js # Header component
-│ │ └── Login.js # Login component
-│ ├── App.js # Main application file
-│ ├── App.css # CSS for styling
-│ ├── index.js # Entry point of the application
-│ └── index.css # Global CSS styles
-├── .gitignore # Git ignore file
-├── package.json # Node package configuration
-└── README.md # Project README
-
 
 
 ## Technologies Used
@@ -94,3 +73,24 @@ mini-crm-app/
 - **JavaScript**: Logic and functionality.
 - **Google Auth**: For user authentication.
 
+## Folder Structure
+
+The project's folder structure is organized as follows:
+```plaintext
+mini-crm-app/
+│
+├── public/
+│   └── index.html           # Main HTML file
+├── src/
+│   ├── components/          # React components
+│   │   ├── AudienceForm.js  # Form for creating audiences
+│   │   ├── CampaignList.js  # List of past campaigns
+│   │   ├── Header.js        # Header component
+│   │   └── Login.js         # Login component
+│   ├── App.js               # Main application file
+│   ├── App.css              # CSS for styling
+│   ├── index.js             # Entry point of the application
+│   └── index.css            # Global CSS styles
+├── .gitignore               # Git ignore file
+├── package.json             # Node package configuration
+└── README.md                # Project README
