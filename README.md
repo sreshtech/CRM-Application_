@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Mini CRM Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Mini CRM Application! This project provides a simple web interface for creating audiences and sending campaigns. It's built with React and includes a variety of features for managing customer campaigns.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Technologies Used](#technologies-used)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Authentication**: Google-based login for secure access.
+- **Audience Creation**: Easily create audiences based on specific rules such as total spend, visit frequency, and inactivity.
+- **Campaign Management**: Save and view a list of past campaigns with details on audience size, sent, and failed messages.
+- **Responsive Design**: User interface adapts to various screen sizes for mobile and desktop use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
+A live demo of the application can be found 
+![Screenshot (1051)](https://github.com/sreshtech/CRM-Application/assets/121309862/832c3c09-cb6b-457b-9180-3ceea4f92882)
 
-### `npm test`
+![Screenshot (1046)](https://github.com/sreshtech/CRM-Application/assets/121309862/1104c4d9-5cc8-4b0a-8f90-6dc2d332ff04)
+![Screenshot (1047)](https://github.com/sreshtech/CRM-Application/assets/121309862/21901cab-5f43-4b87-8b74-61a8db5d64a0)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (1048)](https://github.com/sreshtech/CRM-Application/assets/121309862/fb720844-dd22-4fd3-a819-99e7ed24b28a)
+![Screenshot (1050)](https://github.com/sreshtech/CRM-Application/assets/121309862/86279b95-0dcf-432e-88d7-952ee2369ead)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with the project, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/your-username/mini-crm-app.git
+    cd mini-crm-app
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install dependencies**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Make sure you have Node.js and npm installed on your machine. Then, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start the development server**:
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    The application will be available at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. **Login**: Click on the "Login with Google" button to access the application.
+2. **Create Audience**: Fill out the form to create an audience based on the criteria you define.
+3. **Send Campaigns**: Save the audience to initiate a campaign, view past campaigns, and check the status of sent messages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Folder Structure
 
-### Analyzing the Bundle Size
+The project's folder structure is organized as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **React**: Frontend library for building user interfaces.
+- **CSS**: Styling for the components.
+- **HTML**: Structure of the application.
+- **JavaScript**: Logic and functionality.
+- **Google Auth**: For user authentication.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
